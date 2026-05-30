@@ -7,7 +7,7 @@
     
     <style>
       body { margin: 0; overflow: hidden; }
-      /* Memaksa video kamera agar pas di layar HP dan tidak nge-zoom terdistorsi */
+      /* Mencegah kamera agar tidak nge-zoom terdistorsi di HP */
       .mindar-face-video-container video {
         object-fit: cover !important;
         width: 100vw !important;
@@ -26,13 +26,13 @@
       <a-camera active="true" position="0 0 0" look-controls="enabled: false" fov="60"></a-camera>
 
       <a-entity light="type: ambient; intensity: 1.5;"></a-entity>
-      <a-entity light="type: directional; intensity: 1.0; position: 1 2 1;"></a-entity>
+      <a-entity light="type: directional; intensity: 1.2; position: 1 2 1;"></a-entity>
 
       <a-mindar-face-target anchorIndex="10">
         <a-entity 
           gltf-model="#kudaBaru"
-          scale="0.3 0.3 0.3"
-          position="0 0.5 -0.5"
+          scale="0.2 0.2 0.2"
+          position="0 0.4 -0.2"
           rotation="0 0 0">
         </a-entity>
       </a-mindar-face-target>
