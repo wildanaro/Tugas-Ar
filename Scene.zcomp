@@ -1,0 +1,618 @@
+{
+	"animation": {
+		"clips": {
+			"10cd283c4ce54c8893543c77a013bbcf": {
+				"id": "10cd283c4ce54c8893543c77a013bbcf",
+				"length": 0,
+				"lengthType": "auto",
+				"name": "Visible",
+				"order": "a2",
+				"scriptName": "Visible",
+				"tracks": {
+					"8a26d405b1994ee79e825d945a4b0a92": {
+						"blend": "overlay",
+						"entityID": "a9dc423ea106420a8157706b6a8986d7",
+						"id": "8a26d405b1994ee79e825d945a4b0a92",
+						"keyframes": {
+							"dd5f64e1390547eb8f8f0c4cee092174": {
+								"id": "dd5f64e1390547eb8f8f0c4cee092174",
+								"t": 0,
+								"v": 1
+							}
+						},
+						"order": "a0",
+						"property": [
+							"opacity"
+						],
+						"type": "property",
+						"weight": {
+						}
+					}
+				},
+				"type": "state"
+			},
+			"b474239eb82f41b3bb7aa5f5ab7382fe": {
+				"id": "b474239eb82f41b3bb7aa5f5ab7382fe",
+				"length": 0,
+				"lengthType": "auto",
+				"name": "Hidden",
+				"order": "a3",
+				"scriptName": "Hidden",
+				"tracks": {
+					"f31f77e958b14af99036ef1817a7e1b7": {
+						"blend": "overlay",
+						"entityID": "a9dc423ea106420a8157706b6a8986d7",
+						"id": "f31f77e958b14af99036ef1817a7e1b7",
+						"keyframes": {
+							"93bd813bccfd41208d26907504415853": {
+								"id": "93bd813bccfd41208d26907504415853",
+								"t": 0,
+								"v": 0
+							}
+						},
+						"order": "a0",
+						"property": [
+							"opacity"
+						],
+						"type": "property",
+						"weight": {
+						}
+					}
+				},
+				"type": "state"
+			}
+		},
+		"curves": {
+		},
+		"layers": {
+			"f66c32b0c42b473192513a18fe3f217c": {
+				"clips": {
+					"02007d340c464b6ba3b9a8535c106fa5": {
+						"clipId": "b474239eb82f41b3bb7aa5f5ab7382fe",
+						"id": "02007d340c464b6ba3b9a8535c106fa5",
+						"order": "a3",
+						"scriptName": "Hidden0"
+					},
+					"992dcf60741c4cdca3e11f29a0ce5cda": {
+						"clipId": "10cd283c4ce54c8893543c77a013bbcf",
+						"id": "992dcf60741c4cdca3e11f29a0ce5cda",
+						"order": "a2",
+						"scriptName": "Visible0"
+					}
+				},
+				"defaultClip": "992dcf60741c4cdca3e11f29a0ce5cda",
+				"defaultFadeParameters": {
+					"easing": "ease",
+					"pin": 0,
+					"reverse": false,
+					"time": 500
+				},
+				"enabled": true,
+				"id": "f66c32b0c42b473192513a18fe3f217c",
+				"name": "AnchorVisibility",
+				"order": "a2",
+				"scriptName": "AnchorVisibility"
+			}
+		}
+	},
+	"behaviors": {
+		"a9dc423ea106420a8157706b6a8986d7": {
+			"id": "a9dc423ea106420a8157706b6a8986d7",
+			"parent": {
+				"id": "1517a9da39084068af64dc91091994c2",
+				"order": "a4"
+			},
+			"type": "@zcomponent/three/lib/behaviors/OverrideOpacity#OverrideOpacity"
+		}
+	},
+	"constructorProps": {
+	},
+	"entitiesByLabel": {
+		"AviatorSunglasses.glb": {
+			"be4f2bd065294b67a4cf9e5e81fde57c": true
+		},
+		"CameraEnvironmentMap": {
+			"8cfafbf6de4a4576a4d0f90965423e85": true
+		},
+		"DefaultCookieConsent": {
+			"0ba8e27369df45ca897731dcb1e39bcf": true
+		},
+		"DefaultLoader": {
+			"52148d8eafe3426085e700e049662c07": true
+		},
+		"Defaults": {
+			"7b6fb4d895774174b5d151eec86b704c": true
+		},
+		"DirectionalLight": {
+			"857f9901b65b42c89a3ff04470d70738": true
+		},
+		"FaceAnchorGroup": {
+			"1517a9da39084068af64dc91091994c2": true
+		},
+		"FaceTracker": {
+			"852c3b84d2af4c70b87ce6173ee40164": true
+		},
+		"Group": {
+			"root": true
+		},
+		"HeadMaskMesh": {
+			"b2018d5592a1415abc9ca1270de117a2": true
+		},
+		"VideoRecorderUI": {
+			"dc55087a11004443afbef463af5cc65e": true
+		},
+		"ZapparCamera": {
+			"d056c264c3d345908a1345aeb612ed9d": true
+		},
+		"low_poly_horse.glb": {
+			"9cd5c089efc54b18b4dd7508548d080e": true
+		}
+	},
+	"entitiesByScriptName": {
+		"AviatorSunglasses_glb": {
+			"be4f2bd065294b67a4cf9e5e81fde57c": true
+		},
+		"CameraEnvironmentMap": {
+			"8cfafbf6de4a4576a4d0f90965423e85": true
+		},
+		"DefaultCookieConsent": {
+			"0ba8e27369df45ca897731dcb1e39bcf": true
+		},
+		"DefaultLoader": {
+			"52148d8eafe3426085e700e049662c07": true
+		},
+		"Defaults": {
+			"7b6fb4d895774174b5d151eec86b704c": true
+		},
+		"DirectionalLight": {
+			"857f9901b65b42c89a3ff04470d70738": true
+		},
+		"FaceAnchorGroup": {
+			"1517a9da39084068af64dc91091994c2": true
+		},
+		"FaceTracker": {
+			"852c3b84d2af4c70b87ce6173ee40164": true
+		},
+		"HeadMaskMesh": {
+			"b2018d5592a1415abc9ca1270de117a2": true
+		},
+		"VideoRecorderUI": {
+			"dc55087a11004443afbef463af5cc65e": true
+		},
+		"ZapparCamera": {
+			"d056c264c3d345908a1345aeb612ed9d": true
+		},
+		"low_poly_horse_glb": {
+			"9cd5c089efc54b18b4dd7508548d080e": true
+		}
+	},
+	"entityConstructorProps": {
+		"0ba8e27369df45ca897731dcb1e39bcf": {
+		},
+		"1517a9da39084068af64dc91091994c2": {
+		},
+		"52148d8eafe3426085e700e049662c07": {
+		},
+		"7b6fb4d895774174b5d151eec86b704c": {
+		},
+		"852c3b84d2af4c70b87ce6173ee40164": {
+		},
+		"857f9901b65b42c89a3ff04470d70738": {
+		},
+		"8cfafbf6de4a4576a4d0f90965423e85": {
+		},
+		"9cd5c089efc54b18b4dd7508548d080e": {
+			"source": "file://./low_poly_horse.glb"
+		},
+		"a9dc423ea106420a8157706b6a8986d7": {
+		},
+		"b2018d5592a1415abc9ca1270de117a2": {
+		},
+		"be4f2bd065294b67a4cf9e5e81fde57c": {
+			"source": "file://./AviatorSunglasses.glb"
+		},
+		"d056c264c3d345908a1345aeb612ed9d": {
+			"activateAtStart": true
+		},
+		"dc55087a11004443afbef463af5cc65e": {
+		}
+	},
+	"entityPropOverrides": {
+		"componentprop:prop:root:position": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"position"
+			],
+			"id": "componentprop:prop:root:position",
+			"isConstructorProp": false,
+			"propName": "position",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:rotation": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"rotation"
+			],
+			"id": "componentprop:prop:root:rotation",
+			"isConstructorProp": false,
+			"propName": "rotation",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:scale": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"scale"
+			],
+			"id": "componentprop:prop:root:scale",
+			"isConstructorProp": false,
+			"propName": "scale",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:visible": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"visible"
+			],
+			"id": "componentprop:prop:root:visible",
+			"isConstructorProp": false,
+			"propName": "visible",
+			"type": "componentprop"
+		}
+	},
+	"entityProps": {
+		"0ba8e27369df45ca897731dcb1e39bcf": {
+		},
+		"1517a9da39084068af64dc91091994c2": {
+			"notVisibleLayerClip": "02007d340c464b6ba3b9a8535c106fa5",
+			"visibleLayerClip": "992dcf60741c4cdca3e11f29a0ce5cda"
+		},
+		"52148d8eafe3426085e700e049662c07": {
+		},
+		"7b6fb4d895774174b5d151eec86b704c": {
+		},
+		"852c3b84d2af4c70b87ce6173ee40164": {
+		},
+		"857f9901b65b42c89a3ff04470d70738": {
+			"castShadow": true,
+			"position": [
+				0,
+				3.822578351542651,
+				0
+			]
+		},
+		"8cfafbf6de4a4576a4d0f90965423e85": {
+		},
+		"9cd5c089efc54b18b4dd7508548d080e": {
+			"position": [
+				-0.6223021346132003,
+				-0.959942056212708,
+				1.2964697490529404
+			],
+			"rotation": [
+				3.0612384367502345,
+				0.9912956542798692,
+				3.1211462944439776
+			],
+			"scale": [
+				0.002352459702134846,
+				0.002352459702134846,
+				0.002352459702134846
+			]
+		},
+		"a9dc423ea106420a8157706b6a8986d7": {
+			"opacity": 1
+		},
+		"b2018d5592a1415abc9ca1270de117a2": {
+		},
+		"be4f2bd065294b67a4cf9e5e81fde57c": {
+			"position": [
+				0,
+				0.1326625514643822,
+				0.8045551298367073
+			],
+			"rotation": [
+				0.22322193672505955,
+				0,
+				0
+			],
+			"scale": [
+				24,
+				24,
+				24
+			]
+		},
+		"d056c264c3d345908a1345aeb612ed9d": {
+			"cameraDirection": "user"
+		},
+		"dc55087a11004443afbef463af5cc65e": {
+		},
+		"root": {
+			"position": [
+				-1.7761028621592283,
+				0,
+				0
+			]
+		}
+	},
+	"id": "5d4513e843574c04847bf1474912090f",
+	"nodes": {
+		"0ba8e27369df45ca897731dcb1e39bcf": {
+			"id": "0ba8e27369df45ca897731dcb1e39bcf",
+			"label": "DefaultCookieConsent",
+			"parent": {
+				"id": "7b6fb4d895774174b5d151eec86b704c",
+				"order": "a4"
+			},
+			"scriptName": "DefaultCookieConsent",
+			"type": "@zcomponent/core/lib/components/DefaultCookieConsent#DefaultCookieConsent"
+		},
+		"1517a9da39084068af64dc91091994c2": {
+			"id": "1517a9da39084068af64dc91091994c2",
+			"label": "FaceAnchorGroup",
+			"parent": {
+				"id": "852c3b84d2af4c70b87ce6173ee40164",
+				"order": "a0"
+			},
+			"scriptName": "FaceAnchorGroup",
+			"type": "@zcomponent/zappar-three/lib/components/anchorgroups/FaceAnchorGroup#FaceAnchorGroup"
+		},
+		"52148d8eafe3426085e700e049662c07": {
+			"id": "52148d8eafe3426085e700e049662c07",
+			"label": "DefaultLoader",
+			"parent": {
+				"id": "7b6fb4d895774174b5d151eec86b704c",
+				"order": "Zp"
+			},
+			"scriptName": "DefaultLoader",
+			"type": "@zcomponent/core/lib/components/DefaultLoader#DefaultLoader"
+		},
+		"7b6fb4d895774174b5d151eec86b704c": {
+			"id": "7b6fb4d895774174b5d151eec86b704c",
+			"label": "Defaults",
+			"parent": {
+				"id": "root",
+				"order": "a0"
+			},
+			"scriptName": "Defaults",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		},
+		"852c3b84d2af4c70b87ce6173ee40164": {
+			"id": "852c3b84d2af4c70b87ce6173ee40164",
+			"label": "FaceTracker",
+			"parent": {
+				"id": "root",
+				"order": "Zz"
+			},
+			"scriptName": "FaceTracker",
+			"type": "@zcomponent/zappar-three/lib/components/trackers/FaceTracker#FaceTracker"
+		},
+		"857f9901b65b42c89a3ff04470d70738": {
+			"id": "857f9901b65b42c89a3ff04470d70738",
+			"label": "DirectionalLight",
+			"parent": {
+				"id": "7b6fb4d895774174b5d151eec86b704c",
+				"order": "Zq"
+			},
+			"scriptName": "DirectionalLight",
+			"type": "@zcomponent/three/lib/components/lights/DirectionalLight#DirectionalLight"
+		},
+		"8cfafbf6de4a4576a4d0f90965423e85": {
+			"id": "8cfafbf6de4a4576a4d0f90965423e85",
+			"label": "CameraEnvironmentMap",
+			"parent": {
+				"id": "root",
+				"order": "ZyV"
+			},
+			"scriptName": "CameraEnvironmentMap",
+			"type": "@zcomponent/zappar-three/lib/components/environments/CameraEnvironmentMap#CameraEnvironmentMap"
+		},
+		"9cd5c089efc54b18b4dd7508548d080e": {
+			"id": "9cd5c089efc54b18b4dd7508548d080e",
+			"label": "low_poly_horse.glb",
+			"parent": {
+				"id": "root",
+				"order": "Zw"
+			},
+			"scriptName": "low_poly_horse_glb",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"b2018d5592a1415abc9ca1270de117a2": {
+			"id": "b2018d5592a1415abc9ca1270de117a2",
+			"label": "HeadMaskMesh",
+			"parent": {
+				"id": "1517a9da39084068af64dc91091994c2",
+				"order": "a0"
+			},
+			"scriptName": "HeadMaskMesh",
+			"type": "@zcomponent/zappar-three/lib/components/meshes/HeadMaskMesh#HeadMaskMesh"
+		},
+		"be4f2bd065294b67a4cf9e5e81fde57c": {
+			"id": "be4f2bd065294b67a4cf9e5e81fde57c",
+			"label": "AviatorSunglasses.glb",
+			"parent": {
+				"id": "1517a9da39084068af64dc91091994c2",
+				"order": "Zz"
+			},
+			"scriptName": "AviatorSunglasses_glb",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"d056c264c3d345908a1345aeb612ed9d": {
+			"id": "d056c264c3d345908a1345aeb612ed9d",
+			"label": "ZapparCamera",
+			"parent": {
+				"id": "root",
+				"order": "Zy"
+			},
+			"scriptName": "ZapparCamera",
+			"type": "@zcomponent/zappar-three/lib/components/cameras/Camera#ZapparCamera"
+		},
+		"dc55087a11004443afbef463af5cc65e": {
+			"id": "dc55087a11004443afbef463af5cc65e",
+			"label": "VideoRecorderUI",
+			"parent": {
+				"id": "root",
+				"order": "Zx"
+			},
+			"scriptName": "VideoRecorderUI",
+			"type": "@zcomponent/videorecorder/lib/VideoRecorderUI#VideoRecorderUI"
+		},
+		"root": {
+			"id": "root",
+			"label": "Group",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		}
+	},
+	"preview": "@zcomponent/three/lib/preview#default",
+	"propEntityOverrides": {
+		"position": {
+			"root": {
+				"position": true
+			}
+		}
+	},
+	"props": {
+		"position": {
+			"comments": [
+				"The position, in 3D space, of this node relative to its parent. The three elements of the array correspond to the `x`, `y`, and `z` components of position."
+			],
+			"default": [
+				0,
+				0,
+				0
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "position",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"rotation": {
+			"comments": [
+				"The rotation, in three dimensions, of this node relative to its parent. The three elements of the array correspond to Euler angles - yaw, pitch and roll."
+			],
+			"default": [
+				0,
+				0,
+				0
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "rotation",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"scale": {
+			"comments": [
+				"The scale, in three dimensions, of this node relative to its parent. The three elements of the array correspond to scales in the the `x`, `y`, and `z` axis."
+			],
+			"default": [
+				1,
+				1,
+				1
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "scale",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"visible": {
+			"comments": [
+				"Determines if this object and its children are rendered to the screen."
+			],
+			"default": true,
+			"group": "Appearance",
+			"groupPriority": 11,
+			"name": "visible",
+			"type": {
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "boolean"
+			}
+		}
+	},
+	"root": "root"
+}
